@@ -36,7 +36,7 @@ function Shape (props) {
         setIsIntervalRunning(false);
       }
     }
-  }, [order]);
+  }, [order, clickableItemsCount, isIntervalRunning]);
 
   const handleBoxClick = (e, coords) => {
     setOrder(prev => [...prev, coords]);
