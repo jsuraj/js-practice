@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+// Create a stopwatch with start/pause and reset functions
+
 function Timer() {
   const [seconds, setSeconds] = useState(0);
   const [watchStatus, setWatchStatus] = useState(false);
