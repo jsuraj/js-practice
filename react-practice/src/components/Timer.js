@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function App() {
+function Timer() {
   const [seconds, setSeconds] = useState(0);
   const [watchStatus, setWatchStatus] = useState(false);
 
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default Timer;
